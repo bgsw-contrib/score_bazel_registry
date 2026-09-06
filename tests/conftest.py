@@ -138,7 +138,7 @@ def make_module_content(
         content = f'module(version="{version}")'
 
     return ModuleFileContent(
-        raw_content='module(name="module")',
+        raw_content=content,
         content=content,
         comp_level=comp_level,
         version=Version(version),
